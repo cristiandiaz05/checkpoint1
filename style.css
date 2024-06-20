@@ -1,0 +1,122 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    min-height: 10%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.titulo{
+    display: flex;
+    color: white;
+}
+.rojo{
+    color: red;
+}
+.enlaces{
+    display: flex;
+}
+.enlaces a{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    padding: 7px;
+    margin: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    align-content: center;
+    cursor: pointer;
+    border-radius: 15px;
+    
+}
+main{
+    min-height: 75vh;
+    background-color: rgb(233, 227, 227);
+}
+.portada{
+    min-height: 39vh;
+    background-image: url(./images/image-2.jpg);
+    object-fit: cover;
+    background-position: center center;
+}
+.titulo2{
+    display: flex;
+    justify-content: center;
+}
+.imagen5{
+    background-image: url(./images/image-5.jpg);
+    object-fit: contain;
+    width: 250px;
+    height: 250px;
+    background-position: center center;
+    background-repeat: no-repeat
+}
+.imagen3{
+    background-image: url(./images/image-3.jpg);
+    box-sizing: content-box;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 250px;
+    object-fit: contain;
+}
+.imagen4{
+    background-image: url(./images/image-4.jpg);
+    box-sizing: content-box;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 250px;
+    object-fit: contain;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+}
+.tabla_lista{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
+th{
+    background-color: black;
+    color: white;
+}
+table, tr, td, th{
+    border: 1px solid ;
+}
+table{
+    border-radius: 25px;
+    background-color: gray;
+    padding: 25px;
+}
+ul{
+    border-radius: 25px;
+    background-color: gray;
+    padding: 25px;
+}
+h3{
+    display: flex;
+    justify-content: center;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    min-height: 12vh;
+    align-items: center;
+    background-color: black;
+}
